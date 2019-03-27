@@ -1,0 +1,383 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+#wrapper {
+    width: fit-content;
+    height: fit-content;
+    border: 2px dashed transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+#OutCircBorder{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 605.5px;
+height: 200px; /* as the half of the width */
+border-top-left-radius: 600px;
+border-top-right-radius: 600px;
+border: 3px solid black;
+border-bottom: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+background-image:url(https://www.sketchuptextureclub.com/public/texture_m/0086-dark-fine-wood-texture-seamless.jpg);
+box-shadow: 8px 8px 0px, 4px 4px 2px rgb(0, 0, 0) ; 
+
+}
+#OutBoxBorder {
+display: flex;
+position: relative;
+flex-direction: column;
+align-items: center;
+width: 600px;
+height: 400px;
+border: 3px solid black;
+border-top: none;
+background-image:url(https://www.sketchuptextureclub.com/public/texture_m/0086-dark-fine-wood-texture-seamless.jpg);
+box-shadow: 8px 8px 0px;
+}
+.pin {
+    background: none;
+    animation: pin 20s infinite;
+    -webkit-animation: pin 20s infinite;
+    
+}
+@keyframes pin {
+    0%   { border: solid black;
+        border-bottom: none }
+    15%  { border: solid red; 
+        border-bottom: none}
+    30%  { border:solid yellow;
+        border-bottom: none }
+    45% { border:solid green; 
+        border-bottom: none}
+    60% { border:solid cyan; 
+        border-bottom: none}
+    75% { border:solid blue; 
+        border-bottom: none}
+    90% { border:solid purple; 
+        border-bottom: none}
+    100%{ border:solid black; 
+        border-bottom: none}
+}
+
+@-webkit-keyframes pin {
+    0%   { border: solid black; }
+    15%  { border: solid red; }
+    30%  { border:solid yellow; }
+    45% { border:solid green; }
+    60% { border:solid cyan; }
+    75% { border:solid blue; }
+    90% { border:solid purple; }
+    100%{ border:solid black; }
+}
+@keyframes opacitypin {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes opacitypin {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.pinBox {
+    background: none;
+    animation: pinBox 20s infinite;
+    -webkit-animation: pinBox 20s infinite;
+    
+}
+@keyframes pinBox {
+    0%   { border: solid black;
+        border-top: none }
+    15%  { border: solid red; 
+        border-top: none}
+    30%  { border:solid yellow;
+        border-top: none }
+    45% { border:solid green; 
+        border-top: none}
+    60% { border:solid cyan; 
+        border-top: none}
+    75% { border:solid blue; 
+        border-top: none}
+    90% { border:solid purple; 
+        border-top: none}
+    100%{ border:solid black; 
+        border-top: none}
+}
+
+@-webkit-keyframes pinBox {
+    0%   { border: solid black; }
+    15%  { border: solid red; }
+    30%  { border:solid yellow; }
+    45% { border:solid green; }
+    60% { border:solid cyan; }
+    75% { border:solid blue; }
+    90% { border:solid purple; }
+    100%{ border:solid black; }
+}
+@keyframes opacitypinBox {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes opacitypinBox {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+#OutCircPin{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px 10px 0px 10px;
+padding: 10px 10px 10px 10px;
+width: 581.5px;
+height: 220px; /* as the half of the width */
+border-top-left-radius:300px;
+border-top-right-radius: 300px;
+border-bottom: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+#OutBoxPin{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0px 10px 10px 10px;
+width: 570px;
+height: 400px;
+background: none;
+border-top: none;
+
+}
+#imgArea {
+margin: 10px 10px 0px 10px;
+padding: 10px 10px 10px 10px;
+width: 525px;
+height: 300px; /* as the half of the width */
+border-top-left-radius:400px;
+border-top-right-radius: 400px;
+border: 4px solid black;
+border-bottom: 1;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+background-image: url(./images/concept.jpg);
+background-size: 500px 400px;
+background-position-y: -60px;
+box-shadow: inset 5px 5px 8px, inset -5px -5px 8px;
+}
+#peaceOut{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0px 3px 2px 4px ;
+    margin-top:0px;
+    
+}
+#peace{
+    width: 102px;
+    height: 102px;
+}
+.pea {
+    animation: pea 20s infinite;
+    -webkit-animation: pea 20s infinite;
+    
+}
+@keyframes pea {
+    0%   { border: 5px solid black;
+        border-radius: 50% }
+    15%  { border: 5px solid red; 
+        border-radius: 50% }
+    30%  { border: 5px solid yellow;
+        border-radius: 50%  }
+    45% { border:  5px solid green; 
+        border-radius: 50% }
+    60% { border:  5px solid cyan; 
+        border-radius: 50% }
+    75% { border:  5px solid blue; 
+        border-radius: 50% }
+    90% { border:  5px solid purple; 
+        border-radius: 50% }
+    100%{ border:  5px solid black; 
+        border-radius: 50% }
+}
+
+@-webkit-keyframes pea {
+    0%   { border: solid black; }
+    15%  { border: solid red; }
+    30%  { border:solid yellow; }
+    45% { border:solid green; }
+    60% { border:solid cyan; }
+    75% { border:solid blue; }
+    90% { border:solid purple; }
+    100%{ border:solid black; }
+}
+@keyframes opacitypea {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes opacitypea {
+    0%   { opacity: 0; }
+    15%  { opacity: 1; }
+    30%  { opacity: 0; }
+    45% { opacity: 1; }
+    60% { opacity: 0; }
+    75% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#console{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+float: left;
+width: 520px;
+height: 50px;
+margin: 1px 1px 1px 1px;
+border: 4px solid black;
+background-color: rgb(17, 17, 17);
+box-shadow: inset 2px 2px 8px, inset -2px -2px 8px;
+}
+#consoleh1One{
+    font-size: 27px;
+    margin: 5px 5px 5px 50px;
+    color: lightcoral;
+    font-family: 'Bungee Shade', cursive;
+    cursor: default;
+}
+#consoleh1Two{
+    font-size: 27px;
+    margin: 5px 50px 5px 5px;
+    color: lightseagreen;
+    font-family: 'Bungee Shade', cursive;
+    cursor: default;
+}
+#playbtn{
+    width: 65px;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    background-color: rgb(122, 94, 38);
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 2px 2px;
+}
+#playbtn:hover {
+    text-decoration: underline;
+    background-color: lightseagreen;
+    cursor: pointer;
+    font-size: 10.5px;
+    box-shadow: 3px 3px;
+}
+#pausebtn {
+    width: 65px;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    background-color: rgb(66, 29, 26);
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 2px 2px;
+}
+#pausebtn:hover {
+    text-decoration: underline;
+    background-color:  lightcoral;
+    cursor: pointer;
+    font-size: 10.5px;
+    box-shadow: 3px 3px;
+}
+
+#tracklist {
+margin: 0px 10px 10px 10px;
+width: 523px;
+height: 300px;
+background: none;
+border: 2px solid black;
+background-color: white;
+}
+.mylist{
+    width: 261.5px;
+    height: 300px;
+    border: 3px solid black;
+    float: left;
+    overflow-y: hidden;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url(../images/glass.jpg);
+    box-shadow: inset 2px 2px 8px, inset -2px -2px 8px;
+}
+ .mylist:focus {
+    outline: none;
+}
+
+#beta option:hover {
+    box-shadow: 0 0 10px 100px lightcoral inset;
+    cursor: pointer;
+    font-size: 13px;
+}
+#alpha option:hover {
+    box-shadow: 0 0 10px 100px lightseagreen inset;
+    cursor: pointer;
+    font-size: 13px;
+}
+option{
+font-weight: bolder;
+color: black;
+margin: 5px;
+font-size: 12px;
+text-decoration: underline dashed gray;
+}
+
+option::selection { 
+    outline: none;
+}
+
