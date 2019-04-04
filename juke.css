@@ -25,7 +25,7 @@ border-bottom: 0;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 background-image:url(https://www.sketchuptextureclub.com/public/texture_m/0086-dark-fine-wood-texture-seamless.jpg);
-box-shadow: 8px 8px 0px, 4px 4px 2px rgb(0, 0, 0) ; 
+box-shadow: 8px 8px 0px, 4px 4px 2px rgb(0, 0, 0), 6px 0px ; 
 
 }
 #OutBoxBorder {
@@ -160,7 +160,7 @@ align-items: center;
 margin: 10px 10px 0px 10px;
 padding: 10px 10px 10px 10px;
 width: 581.5px;
-height: 220px; /* as the half of the width */
+height: 222.5px; /* as the half of the width */
 border-top-left-radius:300px;
 border-top-right-radius: 300px;
 border-bottom: 0;
@@ -182,12 +182,12 @@ border-top: none;
 #imgArea {
 margin: 10px 10px 0px 10px;
 padding: 10px 10px 10px 10px;
-width: 525px;
+width: 530px;
 height: 300px; /* as the half of the width */
 border-top-left-radius:400px;
 border-top-right-radius: 400px;
 border: 4px solid black;
-border-bottom: 1;
+border: bottom 1;;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
@@ -196,7 +196,7 @@ background-size: 150%;
 background-position-y: -130px;
 background-position-x: -160px;
 
-box-shadow: inset 5px 5px 8px, inset -5px -5px 8px;
+box-shadow: inset 5px 5px 8px, inset -5px -5px 8px, inset -5px 0px 8px;
 }
 #peaceOut{
     display: flex;
@@ -282,12 +282,11 @@ align-items: center;
 justify-content: center;
 justify-content: space-between;
 float: left;
-width: 520px;
+width: 519px;
 height: 50px;
-margin: 1px 1px 1px 1px;
 border: 4px solid black;
 background-color: rgb(17, 17, 17);
-box-shadow: inset 2px 2px 8px, inset -2px -2px 8px;
+box-shadow:  0px -3px 4px;
 }
 #consoleh1One{
     font-size: 27px;
@@ -351,7 +350,7 @@ background-color: white;
     float: left;
     overflow-y: hidden;
     font-family: 'Permanent Marker', cursive;
-    background-image: url(../images/glass.jpg);
+    background-image: url(./images/glass.jpg);
     box-shadow: inset 2px 2px 8px, inset -2px -2px 8px;
 }
  .mylist:focus {
